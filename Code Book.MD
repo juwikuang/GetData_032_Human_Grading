@@ -20,20 +20,34 @@ Appropriately labels the data set with descriptive variable names.
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ##variables
-features - the activities from features.txt
-activity_labels -  the activities from features.txt
-x_train - Training set.
-y_train - Training labels.
-subject_train - Train data. Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
-x_test - Test set.
+features - the activities from features.txt 
+
+activity_labels -  the activities from features.txt 
+
+x_train - Training set. 
+
+y_train - Training labels. 
+
+subject_train - Train data. Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.  
+
+x_test - Test set. 
+
 y_test - Test labels.
+
 subject_test - Test data. Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+
 training_sensor_data - Training Sensor Data.
+
 test_sensor_data - Test Sensor Data.
+
 sensor_data - Sensor data. A combination of training_sensor_data and test_sensor_data.
+
 sensor_labels - Column names of sensor data.
+
 sensor_data_mean_std - Standard deviation of sensor data.
+
 sensor_avg_by_act_sub - Standard deviation of sensor data. for export.
+
 
 ##Feature Selection 
 
